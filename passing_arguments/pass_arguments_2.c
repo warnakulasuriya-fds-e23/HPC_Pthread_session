@@ -3,6 +3,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h> 
+#define NUM_THREADS 8
+
 char *messages[NUM_THREADS];
 
 struct thread_data
